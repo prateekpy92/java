@@ -1,0 +1,12 @@
+export const nameRegex = /^[A-Za-z-']{1,}$/;
+export const bankNameRegex = /^[A-Za-z\s\-']+$/;
+export const ifscCodeRegex = /^[A-Z]{4}[0-9]{7}$/;
+export const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+export const eightCharAlphanumericPasswordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$/;
+export const mobileRegex = /^[0-9]{10}$/;
+export const abbreviationRegex = /^[a-zA-Z0-9]{1,6}$/;
+export const pinRegex = /^[1-9][0-9]{5}$/;
+export const houseNoRegex = /^[a-zA-Z0-9\s]+$/; 
+export const salaryRegex = /^[1-9][0-9]{0,8}$/;
+export const minAmountRegex = /^[1-9][0-9]{4,}$/;
+export const apartmentRegex = /^[A-Za-z0-9\s]+$/;
